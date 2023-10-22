@@ -1,0 +1,1 @@
+xxd /flag | rev | cut --delimiter " " -f 1 | rev | tr -d "\n" | sed 's/.$//'
